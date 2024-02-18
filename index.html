@@ -16,12 +16,12 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#practicas">PRACTICAS</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#practicas" onclick="seleccionar()">PRACTICAS</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -171,5 +171,7 @@
         <a href="#"><i class="fa-brands fa-discord"></i></a>
     </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
