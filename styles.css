@@ -11,7 +11,7 @@ html{
 }
 
 #inicio, #sobremi, #practicas {
-    margin-bottom: 0px; /* Ajusta el valor según sea necesario */
+    margin-bottom: 0px;
 }
 
 /* MENU */
@@ -164,6 +164,8 @@ html{
     width: 50%;
 }
 
+
+
 .sobremi .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
@@ -193,6 +195,11 @@ html{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor-intereses a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes{
@@ -287,4 +294,47 @@ html{
 
 .practicas .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
+}
+
+/* SECCION FOOTER */
+footer{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #cccc41;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
 }
