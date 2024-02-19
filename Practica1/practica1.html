@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Practica 2" content="width=device-width, initial-scale=1.0">
+    <title>HyperText Markup Language</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="encabezado">Practica 1</h1>
+    <form id="tabla" runat="server">
+        <div class="tabla">
+            
+            <div class="titulo">
+                <p>
+                    HyperText Markup Language
+                </p>
+            </div>
+
+            <div class="tituloCeldas">
+                
+                <div class="celda">
+                    <p>
+                        Nombre del Tag
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        Descripción
+                    </p>
+                </div>
+                
+                <div class="celda">
+                    <p>
+                        Ejemplos
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        Videos
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="fila">
+                <!-- Primera fila-->
+                <div class="celda">
+                    <p>< html ></p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La eriqueta "< html >" es el elmento raíz de un documento HTML y envuelve todo el contenido de la 
+                        página web. Indica al navegador web que el documento es un documento HTML y que todo el 
+                        contenido debe ser interpretado como tal. Esta etiqueta debe estar presente alrededor de todo el 
+                        contenido de la página.
+                    </p>
+                </div>
+
+                <div class="celda" >
+                    < p >< !DOCTYPE html >
+                        < html lang="es" >
+                        < head >
+                            < meta charset="UTF-8">
+                            < meta name="description" content="Ejemplo de página web">
+                            < title>Mi Página Web</ title>
+                        < /head>
+                        < body>
+                            < h1>Bienvenido a mi página web</ h1>
+                            < p>Esta es una página de ejemplo que utiliza la etiqueta &lt ;html&gt ; como elemento raíz.< /p>
+                        < /body>
+                        < /html>< /p>
+                </div>
+
+                <div class="celda celda-video">
+                    <p>Null</p>
+                </div>
+
+                
+                
+            </div>
+
+            <!--Segunda fila-->
+            <div class="fila">
+                <div class="celda">
+                    <p>< head ></p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < head > proporciona información meta sobre el documento HTML. Contiene elementos como 
+                        metadatos, enlaces a archivos CSS y JavaScript, enlaces a fuentes, definiciones de estilos, y 
+                        más. El contenido dentro de la etiqueta < head > no es visible para los usuarios en la página web,
+                        pero es crucial para el correcto funcionamiento y la optimización de la página.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < head >
+                            < meta charset="UTF-8" >
+                            < meta name="description" content="Ejemplo de página web" >
+                            < meta name="keywords" content="HTML, tutorial, ejemplo" >
+                            < meta name="author" content="Tu Nombre" >
+                            < title>Mi Página Web< /title >
+                            < link rel="stylesheet" href="estilos.css" >
+                        < /head >
+                    </p>
+                </div>
+                
+                <div class="celda">
+                    <p>Null</p>
+                </div>
+            </div>
+
+            <!-- Tercera fila-->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < title >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < title > se utiliza dentro del elemento < head > para definir el título de la página web. 
+                        Este título se muestra en la barra de título del navegador y es importante tanto para la experiencia del 
+                        usuario como para la optimización de motores de búsqueda (SEO). El título de la página debe ser descriptivo 
+                        y relevante para el contenido de la página.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < title >Mi Página Web - Inicio< /title >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        Null
+                    </p>
+                </div>
+            </div>
+
+            <!-- Quarta fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < div >
+                    </p>                    
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < div > se utiliza para crear divisiones o contenedores en una página web. Se utiliza para agrupar y estructurar 
+                        contenido relacionado, lo que facilita la aplicación de estilos CSS y el manejo del diseño de la página.
+                    </p>
+                </div>
+                
+                <div class="celda">
+                    <p>
+                        < div class="container" >
+                            < h1>Título de la página</ h1 >
+                            < p>Este es un párrafo de texto introductorio.</ p >
+                            < ul >
+                                < li >Elemento de lista 1< /li >
+                                < li >Elemento de lista 2< /li >
+                                < li >Elemento de lista 3< /li >
+                            < /ul >
+                        < /div >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zYgWEkRN_W4?si=wLioNWXWw7X5kJHc" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Quinta fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < h1 >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < h1 > se utiliza para definir el encabezado principal o el título de una sección de contenido.
+                        Es el nivel más alto de encabezado y generalmente se usa para el título principal de la página o de una sección importante.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < h1 >Título de la página< /h1 >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iEgusLwvTZE?si=9jsJ0gS-7rVu8_j8" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Sexta fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < p >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < p > se utiliza para definir un párrafo de texto en una página web. Se utiliza para envolver y estructurar 
+                        bloques de texto para que sean más legibles y estén separados visualmente del resto del contenido.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < p >Este es un párrafo de texto introductorio.< /p >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8AOuQRf18Jg?si=Uwk8u9kXsGx0pMW0" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Septima fila -->
+                <div class="fila">
+                    <div class="celda">         
+                    <p>
+                        < ul >
+                    </p>
+                </div>
+                
+                <div class="celda">
+                    <p>
+                        La etiqueta < ul > se utiliza para crear una lista no ordenada en una página web. Cada elemento de la lista se 
+                        define utilizando la etiqueta < li >, que se coloca dentro de la etiqueta 
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < ul >
+                            < li >Elemento de lista 1< /li >
+                            < li >Elemento de lista 2< /li >
+                            < li >Elemento de lista 3< /li >
+                        < /ul > 
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yJIGNF1zlXk?si=8KiXv1h9Ic3FOkv7" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Octava fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < li >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < li > se utiliza para definir un elemento de una lista (ya sea ordenada o no ordenada) en una página web. 
+                        Estos elementos se pueden enumerar o presentar en viñetas, según el tipo de lista.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < li >Elemento de lista 1</ li >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yJIGNF1zlXk?si=8KiXv1h9Ic3FOkv7" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Novena fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < i >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < i > se utiliza para enfatizar el texto mediante la aplicación de estilo en cursiva. Sin embargo, 
+                        se recomienda utilizarla con moderación, ya que no proporciona un 
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < p >Este es un ejemplo de texto en < i >cursiva< /i > utilizando la etiqueta &lt ;i&gt ;.< /p>
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        Null
+                    </p>
+                </div>
+            </div>
+
+            <!-- Decima fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < strong >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < strong > se utiliza para enfatizar el texto con un mayor nivel de importancia que < i >. 
+                        Por lo general, se representa en negrita.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < title >Ejemplo de etiqueta < strong >< /title >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uPaPiIr2drI?si=sq7gcSLKAy-k9TTd" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Onceaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < section >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < section > se utiliza para definir una sección o área temática en un documento HTML. 
+                        Ayuda a organizar y estructurar el contenido de la página.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < section >
+                            < article >
+                                < h2 >Artículo 1< /h2 >
+                                < p >< img src="imagen1.jpg" alt="Descripción de la imagen" >< /p >
+                                < p >Contenido del artículo 1< /p >
+                            < /article >
+                    
+                            < article >
+                                < h2 >Artículo 2< /h2 >
+                                < p >< video src="video.mp4" controls>< /video>< /p>
+                                < p >Contenido del artículo 2< /p >
+                            < /article >
+                        < /section >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NflFmwR_r7c?si=j5c02KeCn3YSl1cb" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Doceaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < link >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < link > se utiliza para enlazar recursos externos, como hojas de estilo CSS o fuentes de caracteres
+                        , con el documento HTML.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < link rel="stylesheet" href="estilos.css" >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d7t6mbfCS9E?si=9urzGl4czcu402fN" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Treceaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < header >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < header > se utiliza para definir el encabezado de una sección o el encabezado de la página web.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < header >
+                            < h1 >Título de la página< /h1 >
+                            < nav >
+                                < ul >
+                                    < li >< a href="#">Inicio< /a >< /li >
+                                    < li >< a href="#" >Acerca de< /a >< /li >
+                                    < li >< a href="#">Contacto</a >< /li >
+                                < /ul >
+                            < /nav >
+                        < /header >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AlpwCR6qMDQ?si=rErXS8hTrlFLMTr3" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Quinteaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < footer >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < footer > se utiliza para definir el pie de página de una sección o de la página web en general.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < footer >
+                            < p >Derechos de autor & copy; 2024 - Mi Sitio Web< /p >
+                        < /footer >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LPUROrvX_Nc?si=28A2s2CxmfrXhsQf" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Sexteaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < Nav >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < nav > se utiliza para definir una sección de navegación, que contiene enlaces a otras páginas 
+                        o secciones dentro del sitio web.
+                    </p>
+                </div>
+                
+                <div class="celda">
+                    <p>
+                        < nav >
+                            < ul >
+                                < li >< a href="#">Inicio< /a >< /li >
+                                < li >< a href="#" >Acerca de< /a >< /li >
+                                < li >< a href="#">Contacto</a >< /li >
+                            < /ul >
+                        < /nav >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zi-ZDEjQkjM?si=MwfOvp5Ga3Yr4n8A" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Septeaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < article >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < article > se utiliza para definir contenido independiente y autónomo, como publicaciones de blog, 
+                        noticias, comentarios, etc.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < article >
+                            < h2 >Artículo 1< /h2 >
+                            < p >< img src="imagen1.jpg" alt="Descripción de la imagen">< /p >
+                            < p >Contenido del artículo 1< /p >
+                        </article>
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/910zHyvXMMk?si=3bjtv44h2TKWTvVB" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Octeaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < img >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < img > se utiliza para insertar imágenes en una página web.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < p >< img src="imagen1.jpg" alt="Descripción de la imagen" >< /p >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iHGfGJt0vLo?si=MPnPIKqwYIdHXLrn" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Noveaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < video >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < video > se utiliza para insertar contenido de vídeo en una página web.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < p >< video src="video.mp4" controls >< /video >< /p >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/adLswvbtp9c?si=_g3wPLzF-QByjI7L" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Veinteaba fila -->
+            <div class="fila">
+                <div class="celda">
+                    <p>
+                        < audio >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        La etiqueta < audio > se utiliza para insertar contenido de audio en una página web.
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <p>
+                        < audio controls >
+                            < source src="cancion.mp3" type="audio/mpeg" >
+                        < /audio >
+                    </p>
+                </div>
+
+                <div class="celda">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uPrhVcKdmN0?si=BzkMJWLlwNCDOjs0" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </form>    
+</body>
+</html>
